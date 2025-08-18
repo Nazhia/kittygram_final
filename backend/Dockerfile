@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt --no-cache-dir
 
 COPY . .
 
-CMD ["gunicorn_kittygram", "--bind", "0.0.0.0:9000", "kittygram_backend.wsgi"]
+CMD ["gunicorn_infra_sprint1", "--bind", "0.0.0.0:9000", "kittygram_backend.wsgi"]
